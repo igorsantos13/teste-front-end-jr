@@ -1,0 +1,39 @@
+@import '../../variables';
+@import '../../reset';
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1280px;
+    height: 32px;
+    
+       
+}
+
+.hrLimit{
+   margin: 0 auto;
+   width: 90vw;
+}
+.border-bottom{
+    border: 1px solid $light-grey-color;
+     
+    
+}
+
+.info{
+    display: flex;
+    padding: 0.5rem;
+    
+    p{
+        color: $grey-font-color;
+    }
+
+    b{
+        color: $primary-color;
+        margin-left: .5rem;
+    }
+
+    
+}

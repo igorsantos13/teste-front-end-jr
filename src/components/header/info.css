@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 1280px;
+  height: 32px;
+}
+
+.hrLimit {
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.border-bottom {
+  border: 1px solid #F0F0F0;
+}
+
+.info {
+  display: flex;
+  padding: 0.5rem;
+}
+.info p {
+  color: #9F9F9F;
+}
+.info b {
+  color: #F71963;
+  margin-left: 0.5rem;
+}/*# sourceMappingURL=info.css.map */

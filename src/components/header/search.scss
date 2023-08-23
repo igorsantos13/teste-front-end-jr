@@ -1,0 +1,58 @@
+@import '../../variables';
+@import '../../reset';
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100vw;
+    height: 4rem;
+
+    // border-bottom: 1px solid $light-grey-color;
+    
+}
+.logo{
+    height: 139px;
+    width: 50.64px;
+}
+.searchBar{
+    display: flex;
+    input{
+        width: 657px;
+        padding: 1rem 1rem;
+        background-color: $input-color;
+        border: none;
+        border-radius: .5rem;
+        position: relative;
+    }
+
+    img{
+        position: absolute;
+        right: 340px;
+        top: 50px;
+        width: 28px;
+        height: 28px;
+        background-color: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.icons{
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hrLimit{
+    margin: 0 auto;
+    width: 90vw;
+ }
+ .border-bottom{
+     border: 1px solid $light-grey-color;
+      
+     
+ }
